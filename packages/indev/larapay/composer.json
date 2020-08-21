@@ -10,7 +10,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php-curl-class/php-curl-class": "^8.8"
+    },
      "extra": {
         "laravel": {
             "providers": [
