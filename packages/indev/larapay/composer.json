@@ -1,0 +1,27 @@
+{
+    "name": "indev/larapay",
+    "description": "Laravel Payment Gateway for Indonesia",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Indev Enterprise",
+            "email": "developer@indev.id"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+     "extra": {
+        "laravel": {
+            "providers": [
+                "Indev\\Larapay\\IndevLarapayServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Indev\\Larapay\\": "src/"
+        }
+    }
+}
